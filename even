@@ -1,0 +1,25 @@
+package com.java;
+import java.util.Scanner;
+public class even {
+      public static void main(String[]args) {
+    	  Scanner Scan=new Scanner(System.in);
+    	  
+    	  int a=Scan.nextInt();
+    	  int sum=0;
+    	  int i=0;
+    	  while(i<a) {
+    		  if(i%2==1) {
+    			  sum=sum+i;
+    		  }
+    		  i++;
+    	  }
+    	  if(sum%2==0) {
+    		  System.out.println("Answer is even");
+    	  }
+    	  else {
+    	  
+              System.out.println("Answer is odd");
+    		  
+    	  }
+      }
+}
