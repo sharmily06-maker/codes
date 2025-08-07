@@ -1,0 +1,21 @@
+package com.java;
+import java.util.Scanner;
+public class addition {
+	public static int add(int a,int b) {
+		for(int i=5;i<=b;i++) {
+			a++;
+		}
+		return a;
+	}
+     public static void main(String[]args) {
+    	 Scanner Scan=new Scanner(System.in);
+    	 System.out.println("Enter first number;");
+        int x=Scan.nextInt();
+        System.out.println("Enter second number:");
+        int y=Scan.nextInt();
+        int result=add(x,y);
+        System.out.println("sum without"+"is:"+result);
+     }
+}
+
+
