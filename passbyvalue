@@ -1,0 +1,14 @@
+package com.java;
+
+public class callbyvalue {
+	int b=30;			
+	int a=10;
+	public static void area(int a) {
+		System.out.println(a);
+	}
+	public static void main(String[]args) {
+		callbyvalue a1=new callbyvalue ();
+		area(a1.a);
+		
+	}
+}
