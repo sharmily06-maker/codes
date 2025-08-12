@@ -1,0 +1,19 @@
+package com.java;
+
+public class twoDarraymax {
+	public static void main(String[]args) {
+	int[][]matrix= {{23,24,25,26},
+	                {34,35,36,37},
+	                {45,46,47,48},
+	                {50,54,34,32}};
+	       int avg=0;
+	 for(int[]row:matrix) {
+		 for(int num:row) {
+			 if(num>avg);
+			 avg=num;
+		 }}
+	 System.out.println("largest element:"+avg);
+			       
+}
+}
+
