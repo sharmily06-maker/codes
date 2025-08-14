@@ -1,0 +1,19 @@
+package com.java;
+import java.util.Scanner;
+public class whitespace {
+	public static void main(String[]argd) {
+		Scanner scan=new Scanner(System.in);
+		System.out.println("enter the word:");
+		String a=scan.nextLine();
+		String r="";
+		int count=0;
+		for(int i=0;i<a.length();i++) {
+			
+			if(Character.isWhitespace(a.charAt(i)));{
+				count++;
+			}
+		}
+		 System.out.println("enter the whitespace number="+count);
+	}
+
+}
