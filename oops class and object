@@ -1,0 +1,23 @@
+package com.java;
+import java.util.*;
+class Demo{
+		String name;
+		int age;
+
+		void display() {
+			System.out.println("Name:"+name);
+			System.out.println("Age:"+age);
+		}	
+	}
+public class players{
+public static void main(String[]args){
+	Demo obj1=new Demo();
+	obj1.name="nerai";
+	obj1.age=20;
+	Demo obj2=new Demo();
+	obj2.name="dog";
+	obj2.age=16;
+		obj1.display();
+		obj2.display();
+}
+}
